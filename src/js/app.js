@@ -1,6 +1,6 @@
-import Board from './whackGoblin/Board';
-import WhackGoblin from './whackGoblin/whackGoblin';
+import Board from './whackGoblin/Board'
+import WhackGoblin from './whackGoblin/whackGoblin'
 
-const whackGoblin = new WhackGoblin(new Board().getBoard());
+const whackGoblin = new WhackGoblin(new Board().getBoard())
 
-console.log('app start', whackGoblin);
+console.log('app start', whackGoblin)
